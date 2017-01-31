@@ -38,6 +38,7 @@
     "bower.json",
     "browser.js",
     "browser.js.map",
+    "gulpfile.js",
     "package.json",
     "LICENSE",
     "README.md",
@@ -96,7 +97,7 @@
     "socket.io": "^1.3.7",
     "stacky": "^1.3.1",
     "test-fixture": "PolymerElements/test-fixture",
-    "wd": "git://github.com/appsngen/wd.git#master"
+    "wd": "appsngen/wd#master"
   },
   "optionalDependencies": {
     "update-notifier": "^1.0.0",
