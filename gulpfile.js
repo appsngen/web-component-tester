@@ -78,6 +78,8 @@ gulp.task('test', function (done) {
     done);
 });
 
+gulp.task('postinstall', ['build']);
+
 gulp.task('build-all', (done) => {
   runSequence('clean', 'lint', 'build', done);
 });

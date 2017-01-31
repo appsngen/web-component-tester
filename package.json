@@ -48,6 +48,7 @@
     "build": "tsc",
     "test": "tsc && gulp test",
     "prepublish": "gulp prepublish",
+    "postinstall": "gulp postinstall",
     "test:watch": "watch 'gulp test:unit' runner/ browser/ bin/ test/ tasks/",
     "format": "find runner test | grep '\\.js$\\|\\.ts$' | xargs ./node_modules/.bin/clang-format --style=file -i"
   },
