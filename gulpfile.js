@@ -80,6 +80,10 @@ gulp.task('test', function (done) {
 
 gulp.task('postinstall', ['build']);
 
+process.on('error', function (error) {
+  console.log(error);
+});
+
 gulp.task('build-all', (done) => {
   runSequence('clean', 'lint', 'build', done);
 });
