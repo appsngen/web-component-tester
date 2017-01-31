@@ -42,8 +42,8 @@
     "LICENSE",
     "package.json",
     "README.md",
-    "runner.js",
     "tsconfig.json",
+    "runner.js"
   ],
   "scripts": {
     "lint": "gulp lint",
