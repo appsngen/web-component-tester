@@ -29,20 +29,20 @@
     "wct-st": "./bin/wct-st"
   },
   "files": [
-    ".bowerrc",
     "bin/",
+    "data/",
+    "runner/",
+    "scripts/",
+    "tasks/",
+    ".bowerrc",
     "bower.json",
     "browser.js",
     "browser.js.map",
-    "data/",
     "gulpfile.js",
     "LICENSE",
     "package.json",
     "README.md",
     "runner.js"
-    "runner/",
-    "scripts/",
-    "tasks/",
     "tsconfig.json",
   ],
   "scripts": {
